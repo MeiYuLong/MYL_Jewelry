@@ -1,5 +1,5 @@
 PODS:
-  - MYL_Jewelry (0.1.0)
+  - MYL_Jewelry (0.0.2)
 
 DEPENDENCIES:
   - MYL_Jewelry (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MYL_Jewelry: fdca8a5849869a355e63cdfa4ef6978d19942cbc
+  MYL_Jewelry: 01b7a6dbf522ee964b9a992e7847e1f9a6b64f4a
 
 PODFILE CHECKSUM: f2d9664c23c0c75892732aee9effb4ded077d6aa
 

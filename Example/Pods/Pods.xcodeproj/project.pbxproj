@@ -7,85 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		064AC7E418445BFFE25EF54364B3D4A4 /* MYL_Jewelry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F8E6636FF28A8731276FDACB05425 /* MYL_Jewelry-dummy.m */; };
+		05D034032DD06C7D57B92F86B1E8E006 /* Draw_UIView+FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2D0AAA6FB6D0A848B39F7CF8E42FB /* Draw_UIView+FrameExtension.swift */; };
+		1BFB76417CDD045165903D44CF619585 /* FlashDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFD41A0E5785EF68674D64FCFF591E /* FlashDraw.swift */; };
 		2188DA96553A7018003FC1455189D5CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		24482EEC38378BA6BE26EEA61C74D883 /* MYL_Jewelry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A59F05CE9E5C788B06B7C8272B74A627 /* MYL_Jewelry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33A2664AE815E3DC22F45DF340B29AA1 /* Pods-MYL_Jewelry_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F9392319426EA08AFCEF6EA227021 /* Pods-MYL_Jewelry_Example-dummy.m */; };
-		34E32EE299148A22F3B8B2C247488728 /* FDLabelBaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09722085B402699D240F52BB24A0D432 /* FDLabelBaseData.swift */; };
-		41DD715932FDF6780011E858AB54D091 /* FlashDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EA3AFBAE599FF541205629E9D9E7D7 /* FlashDraw.swift */; };
+		47376FA8BBA86A2A41217A72A2B4AEE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		491E48DBAF253DFFF1218C7602799037 /* Pods-MYL_Jewelry_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D973E7DD671A522FB0EDD0438E7872 /* Pods-MYL_Jewelry_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79092622969D00B06BFDC3D59A3448FB /* FlashDrawManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29C932795FD109B62BFFB0DC25CAA2A /* FlashDrawManager.swift */; };
+		4CEE0B06CCCDAB5A8EEA172A4C126275 /* FD_BarcodeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C5114E35DDFAD3F7D0B75EA5BF62E /* FD_BarcodeTools.swift */; };
+		90E192613C0FBAC6C47399C3F078A855 /* FlashDrawManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF8BC23FEB4BED834E7BDE877A3560 /* FlashDrawManager.swift */; };
 		9FC68D3A89B9E3C017ABBD51DF14A0CE /* Pods-MYL_Jewelry_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F16BD1F4BEA16E6BFCB9E04900224AE /* Pods-MYL_Jewelry_Tests-dummy.m */; };
+		A0AB9D964B428C1B5C062263999D5E7C /* MYL_Jewelry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BD1550E35E813C92FDED859D36D034 /* MYL_Jewelry-dummy.m */; };
 		AEF6052A25822B2DAD3B654E000F2738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B37358B85DFD623C233090E104E17477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CDA2E59FDCDB5CBA2F6C847A7416C772 /* Draw_UIView+FrameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458138459CE2A867583195D386AF689D /* Draw_UIView+FrameExtension.swift */; };
-		D59BD85132969BD534E26A9631C491A1 /* FD_BarcodeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22845AFD965D02FDC532A04B89D149 /* FD_BarcodeTools.swift */; };
+		D4CC821271080890EBC1E90B75358CDF /* Draw_Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB9284E5B23A8A0EABA4FC0840C5F87 /* Draw_Bundle+Extension.swift */; };
+		ED3F9538A4059E8FDE912FD33079B255 /* MYL_Jewelry.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D27D13C824AD37580822624F55A9E8 /* MYL_Jewelry.xcassets */; };
 		F1251106E6357186A409FC5C31C819CE /* Pods-MYL_Jewelry_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEF01A9236274A0CDFFE593A5C49754 /* Pods-MYL_Jewelry_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F202821CDBA6989EEEC2FACF377C7773 /* MYL_Jewelry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEE7C2A67AFFC154F253E99CCF5AC0C /* MYL_Jewelry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3107162DC083653BDD174897343AD90 /* MYL_Jewelry.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */; };
+		FE393C46C7723A3D7EBEE5D00532F8BD /* FDLabelBaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B05F2C4A25AF4BB593DB3C788D90B22 /* FDLabelBaseData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		79EE690838A5682A42A6F0C4CE01424F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C46D97B202FA2F36871924D1601B4CEE;
-			remoteInfo = MYL_Jewelry;
-		};
-		FDAFAB16B205A7F474327E38C9156286 /* PBXContainerItemProxy */ = {
+		6449F3397EFB99B7CD5A4841D1E34F20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EC2ABE963A400F4B3C01FC231ADF9BBA;
 			remoteInfo = "Pods-MYL_Jewelry_Example";
 		};
+		CBA761D0B4FE75BB30808AF46973C3B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46D97B202FA2F36871924D1601B4CEE;
+			remoteInfo = MYL_Jewelry;
+		};
+		DC4EFAA1E45C3A5A73C5E4E713AE1725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DD0371C73E0DC78AC440AFFED426977;
+			remoteInfo = "MYL_Jewelry-MYL_Jewelry";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09722085B402699D240F52BB24A0D432 /* FDLabelBaseData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FDLabelBaseData.swift; sourceTree = "<group>"; };
+		00DF8BC23FEB4BED834E7BDE877A3560 /* FlashDrawManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlashDrawManager.swift; sourceTree = "<group>"; };
 		0ACA7B481C2EE1D6F08ABC217C0EC13D /* Pods_MYL_Jewelry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYL_Jewelry_Example.framework; path = "Pods-MYL_Jewelry_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D28E5E1ACB90A636C3E261F52B33675 /* Pods-MYL_Jewelry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYL_Jewelry_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		103CAEC231D6B70C3DBE4523A49A5CA3 /* ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist"; sourceTree = "<group>"; };
+		113C5114E35DDFAD3F7D0B75EA5BF62E /* FD_BarcodeTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FD_BarcodeTools.swift; sourceTree = "<group>"; };
+		145FF05676B36029A6D71BB8B767C35E /* MYL_Jewelry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYL_Jewelry.release.xcconfig; sourceTree = "<group>"; };
 		1AD91DC54302C1DE0AAF71E0BC767592 /* Pods-MYL_Jewelry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYL_Jewelry_Example.release.xcconfig"; sourceTree = "<group>"; };
-		27F6A3FF7951D3555F1E2BF9D0745044 /* MYL_Jewelry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYL_Jewelry.debug.xcconfig; sourceTree = "<group>"; };
-		2824511F9B6DD9775834FFC7D241C3F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2B05F2C4A25AF4BB593DB3C788D90B22 /* FDLabelBaseData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FDLabelBaseData.swift; sourceTree = "<group>"; };
 		2CEE97C572C243595EE511166CA2C300 /* Pods-MYL_Jewelry_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYL_Jewelry_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2D409ECECABD5E6C9A00753B2D1DE8D4 /* Pods-MYL_Jewelry_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYL_Jewelry_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		35103482349E52B7C685EDBB653EFEA2 /* MYL_Jewelry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MYL_Jewelry.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3AFBC08239167631081BBC2C59AF61AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		457B96BF63E3CD3E65F212DD3DFCE844 /* Pods_MYL_Jewelry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYL_Jewelry_Tests.framework; path = "Pods-MYL_Jewelry_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		458138459CE2A867583195D386AF689D /* Draw_UIView+FrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Draw_UIView+FrameExtension.swift"; sourceTree = "<group>"; };
+		46D27D13C824AD37580822624F55A9E8 /* MYL_Jewelry.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MYL_Jewelry.xcassets; path = MYL_Jewelry/Assets/MYL_Jewelry.xcassets; sourceTree = "<group>"; };
 		49D973E7DD671A522FB0EDD0438E7872 /* Pods-MYL_Jewelry_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYL_Jewelry_Example-umbrella.h"; sourceTree = "<group>"; };
 		4F16BD1F4BEA16E6BFCB9E04900224AE /* Pods-MYL_Jewelry_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYL_Jewelry_Tests-dummy.m"; sourceTree = "<group>"; };
 		530F9392319426EA08AFCEF6EA227021 /* Pods-MYL_Jewelry_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYL_Jewelry_Example-dummy.m"; sourceTree = "<group>"; };
-		660F8E6636FF28A8731276FDACB05425 /* MYL_Jewelry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYL_Jewelry-dummy.m"; sourceTree = "<group>"; };
+		5ECFD41A0E5785EF68674D64FCFF591E /* FlashDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlashDraw.swift; sourceTree = "<group>"; };
+		6AAC6BFEE7EC8114E227118B1DAEBBEA /* MYL_Jewelry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYL_Jewelry.modulemap; sourceTree = "<group>"; };
 		70E57E1A7728FEBD10E1336A50C528ED /* Pods-MYL_Jewelry_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYL_Jewelry_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75B90054C2D31EC8773ACA5CDCED2571 /* MYL_Jewelry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MYL_Jewelry.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7A277B4D3C4E1CB6E535C61BF6941794 /* Pods-MYL_Jewelry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYL_Jewelry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D3EAA6D329BBD66EE6FE8B9396CC0F1 /* Pods-MYL_Jewelry_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYL_Jewelry_Example.modulemap"; sourceTree = "<group>"; };
-		829ED338BA599AA7A87AD10F0B6742FC /* MYL_Jewelry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-prefix.pch"; sourceTree = "<group>"; };
 		8C4C7F192F99DA277F225D1ECAA49D48 /* Pods-MYL_Jewelry_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYL_Jewelry_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9AED73475DBD221F07AFDD1BE800FA23 /* MYL_Jewelry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYL_Jewelry.modulemap; sourceTree = "<group>"; };
-		9CEE7C2A67AFFC154F253E99CCF5AC0C /* MYL_Jewelry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-umbrella.h"; sourceTree = "<group>"; };
+		8F1FAA80F92EBD1F8A2F02F1DA16C13F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		904324C873D79AA78ADF46EF8F57E08C /* MYL_Jewelry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MYL_Jewelry.bundle; path = "MYL_Jewelry-MYL_Jewelry.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59F05CE9E5C788B06B7C8272B74A627 /* MYL_Jewelry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-umbrella.h"; sourceTree = "<group>"; };
 		AD9FDB42D01B2378404C7F1A8A97563F /* MYL_Jewelry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYL_Jewelry.framework; path = MYL_Jewelry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFB6FACA7064A6C7175BBB45EEE9213 /* Pods-MYL_Jewelry_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYL_Jewelry_Example-Info.plist"; sourceTree = "<group>"; };
 		B0524D8596E55FF4BEAA3A2FD5C90077 /* Pods-MYL_Jewelry_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYL_Jewelry_Tests.modulemap"; sourceTree = "<group>"; };
-		B29C932795FD109B62BFFB0DC25CAA2A /* FlashDrawManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlashDrawManager.swift; sourceTree = "<group>"; };
-		B3EA3AFBAE599FF541205629E9D9E7D7 /* FlashDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlashDraw.swift; sourceTree = "<group>"; };
-		B537F0E26B155AC7598884ACAEA9163E /* MYL_Jewelry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MYL_Jewelry-Info.plist"; sourceTree = "<group>"; };
-		BA22845AFD965D02FDC532A04B89D149 /* FD_BarcodeTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FD_BarcodeTools.swift; sourceTree = "<group>"; };
+		B0BD1550E35E813C92FDED859D36D034 /* MYL_Jewelry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYL_Jewelry-dummy.m"; sourceTree = "<group>"; };
 		BEEF01A9236274A0CDFFE593A5C49754 /* Pods-MYL_Jewelry_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYL_Jewelry_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D02922E188CDA2C70F6BB299627C7143 /* MYL_Jewelry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYL_Jewelry.debug.xcconfig; sourceTree = "<group>"; };
+		DDB9284E5B23A8A0EABA4FC0840C5F87 /* Draw_Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Draw_Bundle+Extension.swift"; sourceTree = "<group>"; };
 		E1697210D2DD947FE52FB887374BF3A4 /* Pods-MYL_Jewelry_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYL_Jewelry_Tests-Info.plist"; sourceTree = "<group>"; };
+		E733693AB468EB0C913231D3965FA21D /* MYL_Jewelry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MYL_Jewelry-Info.plist"; sourceTree = "<group>"; };
 		ECA510DE5A65A72FEA2C5CF3FBF373AA /* Pods-MYL_Jewelry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYL_Jewelry_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F2B2D0AAA6FB6D0A848B39F7CF8E42FB /* Draw_UIView+FrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Draw_UIView+FrameExtension.swift"; sourceTree = "<group>"; };
 		F351F7FCCFBC227F03A4747FBE3C7EA7 /* Pods-MYL_Jewelry_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYL_Jewelry_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FBD0FEFBECB78343E366DF5A0F4432F6 /* MYL_Jewelry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MYL_Jewelry.release.xcconfig; sourceTree = "<group>"; };
+		FCFF7C5A684E34D95EB36A0CF7620AAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A32A526646B53F16B438EF0756D8FCD /* Frameworks */ = {
+		4AF13FC436B6C2303E3A70F5B98D5962 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37358B85DFD623C233090E104E17477 /* Foundation.framework in Frameworks */,
+				47376FA8BBA86A2A41217A72A2B4AEE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,17 +119,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F53A64B632F213D0F1AED1D32B55D556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BCE0576AEC80ADAEFA3D93B6621DD37 /* Products */ = {
+		00D22C02C9E06BE8823E9DBE036E601F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD9FDB42D01B2378404C7F1A8A97563F /* MYL_Jewelry.framework */,
-				0ACA7B481C2EE1D6F08ABC217C0EC13D /* Pods_MYL_Jewelry_Example.framework */,
-				457B96BF63E3CD3E65F212DD3DFCE844 /* Pods_MYL_Jewelry_Tests.framework */,
+				6AAC6BFEE7EC8114E227118B1DAEBBEA /* MYL_Jewelry.modulemap */,
+				B0BD1550E35E813C92FDED859D36D034 /* MYL_Jewelry-dummy.m */,
+				E733693AB468EB0C913231D3965FA21D /* MYL_Jewelry-Info.plist */,
+				904324C873D79AA78ADF46EF8F57E08C /* MYL_Jewelry-prefix.pch */,
+				A59F05CE9E5C788B06B7C8272B74A627 /* MYL_Jewelry-umbrella.h */,
+				D02922E188CDA2C70F6BB299627C7143 /* MYL_Jewelry.debug.xcconfig */,
+				145FF05676B36029A6D71BB8B767C35E /* MYL_Jewelry.release.xcconfig */,
+				103CAEC231D6B70C3DBE4523A49A5CA3 /* ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MYL_Jewelry";
 			sourceTree = "<group>";
 		};
 		0F4064617EA5D60C759DC321BB608C1E /* Targets Support Files */ = {
@@ -127,61 +154,55 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		26CA8C0D84F4B5D53D0056FC4DAF5F18 /* Manager */ = {
+		2F61649D2E0A63C2013E563131DCD558 /* MYL_Jewelry */ = {
 			isa = PBXGroup;
 			children = (
-				B29C932795FD109B62BFFB0DC25CAA2A /* FlashDrawManager.swift */,
-			);
-			name = Manager;
-			path = MYL_Jewelry/Classes/Manager;
-			sourceTree = "<group>";
-		};
-		3CA75981CA028F97F66CB1579F83AB55 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3AFBC08239167631081BBC2C59AF61AC /* LICENSE */,
-				35103482349E52B7C685EDBB653EFEA2 /* MYL_Jewelry.podspec */,
-				2824511F9B6DD9775834FFC7D241C3F6 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4013DB29AA88BF81FD7ED4E6155CF00B /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				458138459CE2A867583195D386AF689D /* Draw_UIView+FrameExtension.swift */,
-				BA22845AFD965D02FDC532A04B89D149 /* FD_BarcodeTools.swift */,
-			);
-			name = Support;
-			path = MYL_Jewelry/Classes/Support;
-			sourceTree = "<group>";
-		};
-		45D2111702ED087D20A71A95816C853C /* MYL_Jewelry */ = {
-			isa = PBXGroup;
-			children = (
-				D3F7A54CD3EBDCA7FA81BC3DEF2C66A2 /* Draw */,
-				26CA8C0D84F4B5D53D0056FC4DAF5F18 /* Manager */,
-				3CA75981CA028F97F66CB1579F83AB55 /* Pod */,
-				4013DB29AA88BF81FD7ED4E6155CF00B /* Support */,
-				48D9215E52B31B4BE103F0877E55AB76 /* Support Files */,
+				46D27D13C824AD37580822624F55A9E8 /* MYL_Jewelry.xcassets */,
+				C5C6FC7673388B31388A63C75A53C488 /* Draw */,
+				514B44E6AD2506E4BF36DA23ACD4A62F /* Manager */,
+				87598351AAAD3391E0F729D1A11E4D6A /* Pod */,
+				683E8DEF85F171B6B58F4A83494E5D91 /* Support */,
+				00D22C02C9E06BE8823E9DBE036E601F /* Support Files */,
 			);
 			name = MYL_Jewelry;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		48D9215E52B31B4BE103F0877E55AB76 /* Support Files */ = {
+		33804BF8A3616161D89EF13A80F03B61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AED73475DBD221F07AFDD1BE800FA23 /* MYL_Jewelry.modulemap */,
-				660F8E6636FF28A8731276FDACB05425 /* MYL_Jewelry-dummy.m */,
-				B537F0E26B155AC7598884ACAEA9163E /* MYL_Jewelry-Info.plist */,
-				829ED338BA599AA7A87AD10F0B6742FC /* MYL_Jewelry-prefix.pch */,
-				9CEE7C2A67AFFC154F253E99CCF5AC0C /* MYL_Jewelry-umbrella.h */,
-				27F6A3FF7951D3555F1E2BF9D0745044 /* MYL_Jewelry.debug.xcconfig */,
-				FBD0FEFBECB78343E366DF5A0F4432F6 /* MYL_Jewelry.release.xcconfig */,
+				A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */,
+				AD9FDB42D01B2378404C7F1A8A97563F /* MYL_Jewelry.framework */,
+				0ACA7B481C2EE1D6F08ABC217C0EC13D /* Pods_MYL_Jewelry_Example.framework */,
+				457B96BF63E3CD3E65F212DD3DFCE844 /* Pods_MYL_Jewelry_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MYL_Jewelry";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C08F7D5FC540D5F72829802203A5B87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B05F2C4A25AF4BB593DB3C788D90B22 /* FDLabelBaseData.swift */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C2D8A1A7D976B8E02ED6E0B2B63AC92 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F61649D2E0A63C2013E563131DCD558 /* MYL_Jewelry */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		514B44E6AD2506E4BF36DA23ACD4A62F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				00DF8BC23FEB4BED834E7BDE877A3560 /* FlashDrawManager.swift */,
+			);
+			name = Manager;
+			path = MYL_Jewelry/Classes/Manager;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -190,6 +211,17 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		683E8DEF85F171B6B58F4A83494E5D91 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				DDB9284E5B23A8A0EABA4FC0840C5F87 /* Draw_Bundle+Extension.swift */,
+				F2B2D0AAA6FB6D0A848B39F7CF8E42FB /* Draw_UIView+FrameExtension.swift */,
+				113C5114E35DDFAD3F7D0B75EA5BF62E /* FD_BarcodeTools.swift */,
+			);
+			name = Support;
+			path = MYL_Jewelry/Classes/Support;
 			sourceTree = "<group>";
 		};
 		73255ACD33FE2B92964CDF500DD8972A /* Pods-MYL_Jewelry_Example */ = {
@@ -209,21 +241,33 @@
 			path = "Target Support Files/Pods-MYL_Jewelry_Example";
 			sourceTree = "<group>";
 		};
-		CDB854A0519B88CCB22DA73B09F3B4F9 /* Development Pods */ = {
+		87598351AAAD3391E0F729D1A11E4D6A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				45D2111702ED087D20A71A95816C853C /* MYL_Jewelry */,
+				8F1FAA80F92EBD1F8A2F02F1DA16C13F /* LICENSE */,
+				75B90054C2D31EC8773ACA5CDCED2571 /* MYL_Jewelry.podspec */,
+				FCFF7C5A684E34D95EB36A0CF7620AAB /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C5C6FC7673388B31388A63C75A53C488 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFD41A0E5785EF68674D64FCFF591E /* FlashDraw.swift */,
+				3C08F7D5FC540D5F72829802203A5B87 /* Model */,
+			);
+			name = Draw;
+			path = MYL_Jewelry/Classes/Draw;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CDB854A0519B88CCB22DA73B09F3B4F9 /* Development Pods */,
+				3C2D8A1A7D976B8E02ED6E0B2B63AC92 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0BCE0576AEC80ADAEFA3D93B6621DD37 /* Products */,
+				33804BF8A3616161D89EF13A80F03B61 /* Products */,
 				0F4064617EA5D60C759DC321BB608C1E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -234,16 +278,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D3F7A54CD3EBDCA7FA81BC3DEF2C66A2 /* Draw */ = {
-			isa = PBXGroup;
-			children = (
-				B3EA3AFBAE599FF541205629E9D9E7D7 /* FlashDraw.swift */,
-				F875B25110BC3E51B24E608B8FD8AC73 /* Model */,
-			);
-			name = Draw;
-			path = MYL_Jewelry/Classes/Draw;
 			sourceTree = "<group>";
 		};
 		E8FE4093BA64175465A4CDB88B6AB88C /* Pods-MYL_Jewelry_Tests */ = {
@@ -262,15 +296,6 @@
 			path = "Target Support Files/Pods-MYL_Jewelry_Tests";
 			sourceTree = "<group>";
 		};
-		F875B25110BC3E51B24E608B8FD8AC73 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				09722085B402699D240F52BB24A0D432 /* FDLabelBaseData.swift */,
-			);
-			name = Model;
-			path = Model;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -282,6 +307,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		214250D80CC53902347787F781B53972 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24482EEC38378BA6BE26EEA61C74D883 /* MYL_Jewelry-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95BDC16F9B3AA6EC6BE9796B803F3365 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,29 +323,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2BCEA09DF50786AD1097E3A690C9BB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F202821CDBA6989EEEC2FACF377C7773 /* MYL_Jewelry-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C46D97B202FA2F36871924D1601B4CEE /* MYL_Jewelry */ = {
+		9DD0371C73E0DC78AC440AFFED426977 /* MYL_Jewelry-MYL_Jewelry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8DCE65E4B7513D59C05D3E3C3C9E94A /* Build configuration list for PBXNativeTarget "MYL_Jewelry" */;
+			buildConfigurationList = 5E42C6FE4CD2E9D198AC31B2CE416B66 /* Build configuration list for PBXNativeTarget "MYL_Jewelry-MYL_Jewelry" */;
 			buildPhases = (
-				CB2BCEA09DF50786AD1097E3A690C9BB /* Headers */,
-				8D0EDEBA191CE5C0ECDCB9EF3F965282 /* Sources */,
-				3A32A526646B53F16B438EF0756D8FCD /* Frameworks */,
-				1C7D0A0BF28BA9DBAB63DC779BF030C0 /* Resources */,
+				4D7E3FA28D845A92E8CBD30C6E48DB9F /* Sources */,
+				F53A64B632F213D0F1AED1D32B55D556 /* Frameworks */,
+				D59140B7BE56D131ED6795F624928AEA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "MYL_Jewelry-MYL_Jewelry";
+			productName = "MYL_Jewelry-MYL_Jewelry";
+			productReference = A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C46D97B202FA2F36871924D1601B4CEE /* MYL_Jewelry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CA30A227F7342F769A6CA43EACEA5E /* Build configuration list for PBXNativeTarget "MYL_Jewelry" */;
+			buildPhases = (
+				214250D80CC53902347787F781B53972 /* Headers */,
+				2CA02F7F4B6D8BBD78E3777282E33DD5 /* Sources */,
+				4AF13FC436B6C2303E3A70F5B98D5962 /* Frameworks */,
+				F39CB7A1F85821F9C6EB52504FE6316D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2E35B30CA3E53D6AA11D4848542CC4 /* PBXTargetDependency */,
 			);
 			name = MYL_Jewelry;
 			productName = MYL_Jewelry;
@@ -331,7 +374,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1E1635CB0AB92F9CE77BFBA3558382A9 /* PBXTargetDependency */,
+				8F4390B7C94507B4BBA56C29F8ED47AB /* PBXTargetDependency */,
 			);
 			name = "Pods-MYL_Jewelry_Example";
 			productName = "Pods-MYL_Jewelry_Example";
@@ -350,7 +393,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FE9707ACAACBFE6FFF0138B5C8A5DB97 /* PBXTargetDependency */,
+				AF332D755835EB72F585D1B9996B0170 /* PBXTargetDependency */,
 			);
 			name = "Pods-MYL_Jewelry_Tests";
 			productName = "Pods-MYL_Jewelry_Tests";
@@ -375,11 +418,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0BCE0576AEC80ADAEFA3D93B6621DD37 /* Products */;
+			productRefGroup = 33804BF8A3616161D89EF13A80F03B61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C46D97B202FA2F36871924D1601B4CEE /* MYL_Jewelry */,
+				9DD0371C73E0DC78AC440AFFED426977 /* MYL_Jewelry-MYL_Jewelry */,
 				EC2ABE963A400F4B3C01FC231ADF9BBA /* Pods-MYL_Jewelry_Example */,
 				F6FA5C75D1066FE1407B4BEE7E57F1B7 /* Pods-MYL_Jewelry_Tests */,
 			);
@@ -387,13 +431,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C7D0A0BF28BA9DBAB63DC779BF030C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B24D9F0C81D513B8909A5A05917C0E7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,19 +445,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D59140B7BE56D131ED6795F624928AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3F9538A4059E8FDE912FD33079B255 /* MYL_Jewelry.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39CB7A1F85821F9C6EB52504FE6316D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3107162DC083653BDD174897343AD90 /* MYL_Jewelry.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D0EDEBA191CE5C0ECDCB9EF3F965282 /* Sources */ = {
+		2CA02F7F4B6D8BBD78E3777282E33DD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA2E59FDCDB5CBA2F6C847A7416C772 /* Draw_UIView+FrameExtension.swift in Sources */,
-				D59BD85132969BD534E26A9631C491A1 /* FD_BarcodeTools.swift in Sources */,
-				34E32EE299148A22F3B8B2C247488728 /* FDLabelBaseData.swift in Sources */,
-				41DD715932FDF6780011E858AB54D091 /* FlashDraw.swift in Sources */,
-				79092622969D00B06BFDC3D59A3448FB /* FlashDrawManager.swift in Sources */,
-				064AC7E418445BFFE25EF54364B3D4A4 /* MYL_Jewelry-dummy.m in Sources */,
+				D4CC821271080890EBC1E90B75358CDF /* Draw_Bundle+Extension.swift in Sources */,
+				05D034032DD06C7D57B92F86B1E8E006 /* Draw_UIView+FrameExtension.swift in Sources */,
+				4CEE0B06CCCDAB5A8EEA172A4C126275 /* FD_BarcodeTools.swift in Sources */,
+				FE393C46C7723A3D7EBEE5D00532F8BD /* FDLabelBaseData.swift in Sources */,
+				1BFB76417CDD045165903D44CF619585 /* FlashDraw.swift in Sources */,
+				90E192613C0FBAC6C47399C3F078A855 /* FlashDrawManager.swift in Sources */,
+				A0AB9D964B428C1B5C062263999D5E7C /* MYL_Jewelry-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7E3FA28D845A92E8CBD30C6E48DB9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,17 +504,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E1635CB0AB92F9CE77BFBA3558382A9 /* PBXTargetDependency */ = {
+		8F4390B7C94507B4BBA56C29F8ED47AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MYL_Jewelry;
 			target = C46D97B202FA2F36871924D1601B4CEE /* MYL_Jewelry */;
-			targetProxy = 79EE690838A5682A42A6F0C4CE01424F /* PBXContainerItemProxy */;
+			targetProxy = CBA761D0B4FE75BB30808AF46973C3B7 /* PBXContainerItemProxy */;
 		};
-		FE9707ACAACBFE6FFF0138B5C8A5DB97 /* PBXTargetDependency */ = {
+		AF332D755835EB72F585D1B9996B0170 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MYL_Jewelry_Example";
 			target = EC2ABE963A400F4B3C01FC231ADF9BBA /* Pods-MYL_Jewelry_Example */;
-			targetProxy = FDAFAB16B205A7F474327E38C9156286 /* PBXContainerItemProxy */;
+			targetProxy = 6449F3397EFB99B7CD5A4841D1E34F20 /* PBXContainerItemProxy */;
+		};
+		DF2E35B30CA3E53D6AA11D4848542CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MYL_Jewelry-MYL_Jewelry";
+			target = 9DD0371C73E0DC78AC440AFFED426977 /* MYL_Jewelry-MYL_Jewelry */;
+			targetProxy = DC4EFAA1E45C3A5A73C5E4E713AE1725 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -557,6 +624,37 @@
 			};
 			name = Debug;
 		};
+		30C60E0199E8F873EA742CC3333230E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145FF05676B36029A6D71BB8B767C35E /* MYL_Jewelry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MYL_Jewelry/MYL_Jewelry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry.modulemap";
+				PRODUCT_MODULE_NAME = MYL_Jewelry;
+				PRODUCT_NAME = MYL_Jewelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		758949841E65D73A841967381D1D051B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECA510DE5A65A72FEA2C5CF3FBF373AA /* Pods-MYL_Jewelry_Tests.release.xcconfig */;
@@ -622,6 +720,52 @@
 			};
 			name = Debug;
 		};
+		8BA76258E412C63CA19195B04968EA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02922E188CDA2C70F6BB299627C7143 /* MYL_Jewelry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MYL_Jewelry/MYL_Jewelry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry.modulemap";
+				PRODUCT_MODULE_NAME = MYL_Jewelry;
+				PRODUCT_NAME = MYL_Jewelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F9839F835718B1B8DE101C3A0729D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02922E188CDA2C70F6BB299627C7143 /* MYL_Jewelry.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MYL_Jewelry";
+				IBSC_MODULE = MYL_Jewelry;
+				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MYL_Jewelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		B8349BACE6DDF9301B939A540B611BD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A277B4D3C4E1CB6E535C61BF6941794 /* Pods-MYL_Jewelry_Tests.debug.xcconfig */;
@@ -654,34 +798,19 @@
 			};
 			name = Debug;
 		};
-		C3227309232A20B897C001E376FCE44D /* Release */ = {
+		BA598B3190ECBB9E0C6C9690EB734E34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBD0FEFBECB78343E366DF5A0F4432F6 /* MYL_Jewelry.release.xcconfig */;
+			baseConfigurationReference = 145FF05676B36029A6D71BB8B767C35E /* MYL_Jewelry.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MYL_Jewelry/MYL_Jewelry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MYL_Jewelry";
+				IBSC_MODULE = MYL_Jewelry;
+				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry.modulemap";
-				PRODUCT_MODULE_NAME = MYL_Jewelry;
 				PRODUCT_NAME = MYL_Jewelry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -747,36 +876,6 @@
 			};
 			name = Release;
 		};
-		E42BEB4FA2207256B1D6A8D1C7610C86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F6A3FF7951D3555F1E2BF9D0745044 /* MYL_Jewelry.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MYL_Jewelry/MYL_Jewelry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MYL_Jewelry/MYL_Jewelry.modulemap";
-				PRODUCT_MODULE_NAME = MYL_Jewelry;
-				PRODUCT_NAME = MYL_Jewelry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -798,6 +897,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5E42C6FE4CD2E9D198AC31B2CE416B66 /* Build configuration list for PBXNativeTarget "MYL_Jewelry-MYL_Jewelry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9839F835718B1B8DE101C3A0729D75 /* Debug */,
+				BA598B3190ECBB9E0C6C9690EB734E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A8CECB69EFDAC7DE9CDBAE4CA28C02CC /* Build configuration list for PBXNativeTarget "Pods-MYL_Jewelry_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -807,11 +915,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8DCE65E4B7513D59C05D3E3C3C9E94A /* Build configuration list for PBXNativeTarget "MYL_Jewelry" */ = {
+		E8CA30A227F7342F769A6CA43EACEA5E /* Build configuration list for PBXNativeTarget "MYL_Jewelry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E42BEB4FA2207256B1D6A8D1C7610C86 /* Debug */,
-				C3227309232A20B897C001E376FCE44D /* Release */,
+				8BA76258E412C63CA19195B04968EA88 /* Debug */,
+				30C60E0199E8F873EA742CC3333230E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

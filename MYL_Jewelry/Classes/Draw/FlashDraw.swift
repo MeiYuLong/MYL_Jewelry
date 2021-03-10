@@ -56,6 +56,7 @@ internal class FlashDraw {
         self.drawAddressInfo(data: data, type: .SRC)
         self.drawAddressInfo(data: data, type: .DST)
         self.drawRemark(data: data)
+        self.drawBottomLogo(image: nil, web: "Flashexpress.com")
         return self.drawImage()
     }
     
@@ -293,8 +294,9 @@ extension FlashDraw {
     ///   - web: web 地址
     private func drawBottomLogo(image: UIImage?, web: String?) {
         //logo
+        let defaultIcon = UIImage.make(name: "logo") ?? UIImage()
         let logoImageView = UIImageView()//495*147
-        logoImageView.image = image ?? UIImage.init(named: "print_logo")
+        logoImageView.image = image ?? defaultIcon
         let logoHeight = 50
         logoImageView.frame = CGRect.init(x: 0, y: Int(y + edge), width: Int(495*logoHeight/147), height: logoHeight)
         bgView.addSubview(logoImageView)
