@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MYL_Jewelry_Example' do
+  pod 'MYL_Jewelry', :path => '../'
+
+  target 'MYL_Jewelry_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

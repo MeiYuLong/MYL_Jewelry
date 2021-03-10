@@ -1,0 +1,22 @@
+{
+  "name": "MYL_Jewelry",
+  "version": "0.1.0",
+  "summary": "A short description of MYL_Jewelry.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/longjiao914@126.com/MYL_Jewelry",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "longjiao914@126.com": "longjiao914@126.com"
+  },
+  "source": {
+    "git": "https://github.com/longjiao914@126.com/MYL_Jewelry.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MYL_Jewelry/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MYL_Jewelry (0.1.0)
+
+DEPENDENCIES:
+  - MYL_Jewelry (from `../`)
+
+EXTERNAL SOURCES:
+  MYL_Jewelry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MYL_Jewelry: fdca8a5849869a355e63cdfa4ef6978d19942cbc
+
+PODFILE CHECKSUM: f2d9664c23c0c75892732aee9effb4ded077d6aa
+
+COCOAPODS: 1.10.0
