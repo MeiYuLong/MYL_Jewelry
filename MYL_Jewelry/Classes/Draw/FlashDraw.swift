@@ -141,8 +141,8 @@ extension FlashDraw {
     /// - Parameter data: FDLabelBaseData
     private func drawAddressInfo(data: FDLabelBaseData, type: FDAddressInfoType = .SRC) {
         
-        var srcTag = "From"
-        var dstTag = "To"
+        var srcTag = data.src_title
+        var dstTag = data.dst_title
         if let src_abbreviation = data.src_abbreviation, !src_abbreviation.isEmpty {
             srcTag = "\(srcTag)\n\(src_abbreviation)"
         }

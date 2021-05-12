@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYL_Jewelry'
-  s.version          = '0.0.3'
-  s.summary          = 'A short description of MYL_Jewelry.'
+  s.version          = '0.0.4'
+  s.summary          = 'Flash 小标签绘制，（365小标签、FlashExpress小标签）.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
