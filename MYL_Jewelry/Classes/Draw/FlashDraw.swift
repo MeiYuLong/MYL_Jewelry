@@ -243,12 +243,12 @@ extension FlashDraw {
         //line5  竖1
         let line5 = UIView()
         line5.backgroundColor = UIColor.black
-        line5.frame = CGRect.init(x: 2, y: line1.minY, width: 1, height: line4.maxY - line1.minY)
+        line5.frame = CGRect.init(x: 2, y: line1.maxY, width: 1, height: line4.minY - line1.maxY)
         bgView.addSubview(line5)
         //line6 竖3
         let line6 = UIView()
         line6.backgroundColor = UIColor.black
-        line6.frame = CGRect.init(x: bgView.width-2, y: line1.minY, width: line5.width, height: line5.height)
+        line6.frame = CGRect.init(x: line4.maxX - 1, y: line1.maxY, width: line5.width, height: line5.height)
         bgView.addSubview(line6)
         
         y = line6.maxY+edge
@@ -282,13 +282,13 @@ extension FlashDraw {
         //remarkLine3  竖1
         let remarkLine3 = UIView()
         remarkLine3.backgroundColor = UIColor.black
-        remarkLine3.frame = CGRect.init(x: 2, y: remarkLine1.maxY, width: 1, height: remarkLine2.maxY - remarkLine1.minY)
+        remarkLine3.frame = CGRect.init(x: 2, y: remarkLine1.maxY, width: 1, height: remarkLine2.minY - remarkLine1.maxY)
         bgView.addSubview(remarkLine3)
         
         //remarkLine4 竖2
         let remarkLine4 = UIView()
         remarkLine4.backgroundColor = UIColor.black
-        remarkLine4.frame = CGRect.init(x: remarkLine1.maxX, y: remarkLine1.maxY, width: 1, height: remarkLine3.height)
+        remarkLine4.frame = CGRect.init(x: remarkLine1.maxX - 1, y: remarkLine1.maxY, width: 1, height: remarkLine3.height)
         bgView.addSubview(remarkLine4)
         
         y = remarkLine2.maxY

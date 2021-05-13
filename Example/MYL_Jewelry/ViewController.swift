@@ -25,8 +25,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func draw(_ sender: Any) {
-//        drawPNO()
-        draw365()
+        drawPNO()
+//        draw365()
     }
     
     private func drawPNO() {

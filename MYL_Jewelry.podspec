@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYL_Jewelry'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = 'Flash 小标签绘制，（365小标签、FlashExpress小标签）.'
 
 # This description is used to generate tags and improve search results.
