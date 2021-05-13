@@ -58,7 +58,8 @@ internal class EPrintDraw {
         //重新计算总高度
         bgView.frame = CGRect.init(x: 0, y: 0, width: bgSize.width, height: y + bottomMargin)
         
-        UIGraphicsBeginImageContext(bgView.bounds.size)
+//        UIGraphicsBeginImageContext(bgView.bounds.size)
+        UIGraphicsBeginImageContextWithOptions(bgView.bounds.size, true, 1.0)
         guard let context = UIGraphicsGetCurrentContext() else {
             return UIImage()
         }
