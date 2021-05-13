@@ -1,25 +1,27 @@
 //
-//  FlashDraw.swift
+//  EPrintDraw.swift
 //  MYL_Jewelry
 //
-//  Created by yulong mei on 2021/3/10.
+//  Created by yulong mei on 2021/5/13.
 //
 
 import Foundation
 
-internal class FlashDraw {
+internal class EPrintDraw {
     
-    static let shared = FlashDraw()
+    static let shared = EPrintDraw()
     
     var multiple:CGFloat = 1
     var barcodeHeight: CGFloat = 85
-    var dcNameWidth: CGFloat = 65
+    var dcNameWidth: CGFloat = 72
     var edge: CGFloat = 5
     var dcNameEdge: CGFloat = 7
     var barcodeFontSize:CGFloat = 26
     var dcNameFontSize: CGFloat = 22
     var namePhoneFontSize: CGFloat = 20
     var remarkFontSize: CGFloat = 20
+    
+    var fromToLabelMinHeight: CGFloat = 60
     
     var addressFontSize: CGFloat = 20
     var bgWidth = 380
@@ -41,28 +43,14 @@ internal class FlashDraw {
         bgView.frame = CGRect.init(x: 0, y: 0, width: bgSize.width, height: bgSize.height)
     }
     
-//    /// 365Print绘制
-//    public func draw365Label(data: FDLabelBaseData, _ bottomMargin: CGFloat) -> UIImage {
-//        x = 0
-//        y = 0
-//        let _ = bgView.subviews.map{ $0.removeFromSuperview() }
-//        self.drawAddressInfo(data: data, type: .SRC)
-//        self.drawAddressInfo(data: data, type: .DST)
-//        self.drawRemark(data: data)
-//        return self.drawImage()
-//    }
-    
-    /// Flash PNO绘制
-    public func drawPNOLabel(data: FDTicketLabelData, _ bottomMargin: CGFloat = 0) -> UIImage {
+    /// 365Print绘制
+    public func draw365Label(data: FDLabelBaseData, _ bottomMargin: CGFloat) -> UIImage {
         x = 0
         y = 0
         let _ = bgView.subviews.map{ $0.removeFromSuperview() }
-        self.drawCOD(data: data)
-        self.drawBarCode(data: data)
         self.drawAddressInfo(data: data, type: .SRC)
         self.drawAddressInfo(data: data, type: .DST)
         self.drawRemark(data: data)
-        self.drawBottomLogo(image: nil, web: "Flashexpress.com")
         return self.drawImage()
     }
     
@@ -93,7 +81,7 @@ internal class FlashDraw {
 }
 
 //MARK: FlashExpress绘制小标签(COD、BarCode、 寄件人信息、 收件人信息、 备注、 底部Logo)
-extension FlashDraw {
+extension EPrintDraw {
     
     /// 绘制COD
     /// - Parameter data: FDTicketLabelData
@@ -176,9 +164,8 @@ extension FlashDraw {
         fromLabel.textColor = textColor
         fromLabel.numberOfLines = 2
         fromLabel.text = tagText
-        fromLabel.frame = CGRect.init(x: 0, y: line1.maxY + dcNameEdge + 2.5*multiple, width: dcNameWidth, height: 0)
+        fromLabel.frame = CGRect.init(x: 0, y: line1.maxY + dcNameEdge + 2.5*multiple, width: dcNameWidth, height: fromToLabelMinHeight)
         bgView.addSubview(fromLabel)
-        fromLabel.sizeToFit()
         x = (dcNameWidth - fromLabel.width)/2
         fromLabel.minX = x
         

@@ -12,6 +12,7 @@
 		2188DA96553A7018003FC1455189D5CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		24482EEC38378BA6BE26EEA61C74D883 /* MYL_Jewelry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A59F05CE9E5C788B06B7C8272B74A627 /* MYL_Jewelry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33A2664AE815E3DC22F45DF340B29AA1 /* Pods-MYL_Jewelry_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F9392319426EA08AFCEF6EA227021 /* Pods-MYL_Jewelry_Example-dummy.m */; };
+		4609186F264CD5F50021D5ED /* EPrintDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609186E264CD5F50021D5ED /* EPrintDraw.swift */; };
 		47376FA8BBA86A2A41217A72A2B4AEE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		491E48DBAF253DFFF1218C7602799037 /* Pods-MYL_Jewelry_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D973E7DD671A522FB0EDD0438E7872 /* Pods-MYL_Jewelry_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CEE0B06CCCDAB5A8EEA172A4C126275 /* FD_BarcodeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C5114E35DDFAD3F7D0B75EA5BF62E /* FD_BarcodeTools.swift */; };
@@ -52,7 +53,7 @@
 
 /* Begin PBXFileReference section */
 		00DF8BC23FEB4BED834E7BDE877A3560 /* FlashDrawManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlashDrawManager.swift; sourceTree = "<group>"; };
-		0ACA7B481C2EE1D6F08ABC217C0EC13D /* Pods_MYL_Jewelry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYL_Jewelry_Example.framework; path = "Pods-MYL_Jewelry_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACA7B481C2EE1D6F08ABC217C0EC13D /* Pods_MYL_Jewelry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYL_Jewelry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D28E5E1ACB90A636C3E261F52B33675 /* Pods-MYL_Jewelry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYL_Jewelry_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		103CAEC231D6B70C3DBE4523A49A5CA3 /* ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MYL_Jewelry-MYL_Jewelry-Info.plist"; sourceTree = "<group>"; };
 		113C5114E35DDFAD3F7D0B75EA5BF62E /* FD_BarcodeTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FD_BarcodeTools.swift; sourceTree = "<group>"; };
@@ -61,7 +62,8 @@
 		2B05F2C4A25AF4BB593DB3C788D90B22 /* FDLabelBaseData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FDLabelBaseData.swift; sourceTree = "<group>"; };
 		2CEE97C572C243595EE511166CA2C300 /* Pods-MYL_Jewelry_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYL_Jewelry_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2D409ECECABD5E6C9A00753B2D1DE8D4 /* Pods-MYL_Jewelry_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYL_Jewelry_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		457B96BF63E3CD3E65F212DD3DFCE844 /* Pods_MYL_Jewelry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MYL_Jewelry_Tests.framework; path = "Pods-MYL_Jewelry_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457B96BF63E3CD3E65F212DD3DFCE844 /* Pods_MYL_Jewelry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYL_Jewelry_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4609186E264CD5F50021D5ED /* EPrintDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPrintDraw.swift; sourceTree = "<group>"; };
 		46D27D13C824AD37580822624F55A9E8 /* MYL_Jewelry.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MYL_Jewelry.xcassets; path = MYL_Jewelry/Assets/MYL_Jewelry.xcassets; sourceTree = "<group>"; };
 		49D973E7DD671A522FB0EDD0438E7872 /* Pods-MYL_Jewelry_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MYL_Jewelry_Example-umbrella.h"; sourceTree = "<group>"; };
 		4F16BD1F4BEA16E6BFCB9E04900224AE /* Pods-MYL_Jewelry_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MYL_Jewelry_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -70,16 +72,16 @@
 		6AAC6BFEE7EC8114E227118B1DAEBBEA /* MYL_Jewelry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MYL_Jewelry.modulemap; sourceTree = "<group>"; };
 		70E57E1A7728FEBD10E1336A50C528ED /* Pods-MYL_Jewelry_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MYL_Jewelry_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75B90054C2D31EC8773ACA5CDCED2571 /* MYL_Jewelry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MYL_Jewelry.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		75B90054C2D31EC8773ACA5CDCED2571 /* MYL_Jewelry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MYL_Jewelry.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7A277B4D3C4E1CB6E535C61BF6941794 /* Pods-MYL_Jewelry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYL_Jewelry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D3EAA6D329BBD66EE6FE8B9396CC0F1 /* Pods-MYL_Jewelry_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYL_Jewelry_Example.modulemap"; sourceTree = "<group>"; };
 		8C4C7F192F99DA277F225D1ECAA49D48 /* Pods-MYL_Jewelry_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MYL_Jewelry_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8F1FAA80F92EBD1F8A2F02F1DA16C13F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8F1FAA80F92EBD1F8A2F02F1DA16C13F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		904324C873D79AA78ADF46EF8F57E08C /* MYL_Jewelry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MYL_Jewelry.bundle; path = "MYL_Jewelry-MYL_Jewelry.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A337E64358A566CA4C14642B752E0AD0 /* MYL_Jewelry.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYL_Jewelry.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59F05CE9E5C788B06B7C8272B74A627 /* MYL_Jewelry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MYL_Jewelry-umbrella.h"; sourceTree = "<group>"; };
-		AD9FDB42D01B2378404C7F1A8A97563F /* MYL_Jewelry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MYL_Jewelry.framework; path = MYL_Jewelry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9FDB42D01B2378404C7F1A8A97563F /* MYL_Jewelry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MYL_Jewelry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFB6FACA7064A6C7175BBB45EEE9213 /* Pods-MYL_Jewelry_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYL_Jewelry_Example-Info.plist"; sourceTree = "<group>"; };
 		B0524D8596E55FF4BEAA3A2FD5C90077 /* Pods-MYL_Jewelry_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MYL_Jewelry_Tests.modulemap"; sourceTree = "<group>"; };
 		B0BD1550E35E813C92FDED859D36D034 /* MYL_Jewelry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MYL_Jewelry-dummy.m"; sourceTree = "<group>"; };
@@ -91,7 +93,7 @@
 		ECA510DE5A65A72FEA2C5CF3FBF373AA /* Pods-MYL_Jewelry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MYL_Jewelry_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F2B2D0AAA6FB6D0A848B39F7CF8E42FB /* Draw_UIView+FrameExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Draw_UIView+FrameExtension.swift"; sourceTree = "<group>"; };
 		F351F7FCCFBC227F03A4747FBE3C7EA7 /* Pods-MYL_Jewelry_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MYL_Jewelry_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCFF7C5A684E34D95EB36A0CF7620AAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FCFF7C5A684E34D95EB36A0CF7620AAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +186,6 @@
 			children = (
 				2B05F2C4A25AF4BB593DB3C788D90B22 /* FDLabelBaseData.swift */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -255,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				5ECFD41A0E5785EF68674D64FCFF591E /* FlashDraw.swift */,
+				4609186E264CD5F50021D5ED /* EPrintDraw.swift */,
 				3C08F7D5FC540D5F72829802203A5B87 /* Model */,
 			);
 			name = Draw;
@@ -472,6 +474,7 @@
 				05D034032DD06C7D57B92F86B1E8E006 /* Draw_UIView+FrameExtension.swift in Sources */,
 				4CEE0B06CCCDAB5A8EEA172A4C126275 /* FD_BarcodeTools.swift in Sources */,
 				FE393C46C7723A3D7EBEE5D00532F8BD /* FDLabelBaseData.swift in Sources */,
+				4609186F264CD5F50021D5ED /* EPrintDraw.swift in Sources */,
 				1BFB76417CDD045165903D44CF619585 /* FlashDraw.swift in Sources */,
 				90E192613C0FBAC6C47399C3F078A855 /* FlashDrawManager.swift in Sources */,
 				A0AB9D964B428C1B5C062263999D5E7C /* MYL_Jewelry-dummy.m in Sources */,
@@ -869,8 +872,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
