@@ -43,7 +43,9 @@ internal class FlashDraw {
     
     /// 365Print绘制
     public func draw365Label(data: FDLabelBaseData, _ bottomMargin: CGFloat) -> UIImage {
-        bgView.subviews.map{ $0.removeFromSuperview() }
+        x = 0
+        y = 0
+        let _ = bgView.subviews.map{ $0.removeFromSuperview() }
         self.drawAddressInfo(data: data, type: .SRC)
         self.drawAddressInfo(data: data, type: .DST)
         self.drawRemark(data: data)
@@ -52,7 +54,9 @@ internal class FlashDraw {
     
     /// Flash PNO绘制
     public func drawPNOLabel(data: FDTicketLabelData, _ bottomMargin: CGFloat = 0) -> UIImage {
-        bgView.subviews.map{ $0.removeFromSuperview() } 
+        x = 0
+        y = 0
+        let _ = bgView.subviews.map{ $0.removeFromSuperview() } 
         self.drawCOD(data: data)
         self.drawBarCode(data: data)
         self.drawAddressInfo(data: data, type: .SRC)
